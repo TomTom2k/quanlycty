@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+header {
+	height: 100px;
+	padding: 20px 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.name {
+	width: 20%;
+	font-size: 30px;
+	text-shadow: 1px 1px 0 aquamarine;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+.slogan {
+	width: 60%;
+}
+nav {
+	padding: 10px;
+}
+nav a {
+	margin-left: 20px;
+}
+#aboutMe {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#guide {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    margin-top: 20px;
+	max-width: 1024px;
+	width: 100%;
+}
+li {
+    margin-bottom: 2px;
+}
+.sub-list {
+	padding: 0 20px;
+}
+.menu a {
+    margin-left: 20px;
+}
+.sub-menu {
+    margin-top: 20px;
+}
+.sub-menu li {
+    margin-left: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    position: relative;
+    left: -40px;
+}
+.menu {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.menu a {
+	color: black;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+h3 span {
+	font-size: 1rem;
+	font-weight: lighter;
+}
+
+footer {
+	padding: 20px 10px;
+	background-color: aqua;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+	color: #3f3f3f;
+}
